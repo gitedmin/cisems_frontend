@@ -79,7 +79,7 @@ function DashboardRepresentation(props) {
       {data && (
         <div style={{padding:'20px', width: '100%'}}>
           <div style={{ height: '50vh', padding:'1rem', border:'2px solid white', overflow: 'scroll', margin: ' 10px auto', overflowX: 'hidden' }}>
-            <table style={{ borderCollapse: 'collapse', width: '100%' }} className='tablestyles'>
+            <table style={{ borderCollapse: 'collapse', width: '80%' }} className='tablestyles'>
               <thead style={{ backgroundColor: '#1F4788', margin: '1rem' }}>
                 <tr>
                   <th style={{ padding: '1px', textAlign: 'left' }}>S.No</th>
