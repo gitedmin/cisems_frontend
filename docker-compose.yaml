@@ -1,0 +1,13 @@
+version: '3'
+services:
+
+  frontend:
+    image: node:19.5.0-slim
+    container_name: frontend
+    build:
+      context. 
+      dockerfile: Dockerfile
+    restart: always
+    hostname: frontend
+    ports:
+      - "3000:3000"
